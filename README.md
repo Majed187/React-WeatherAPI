@@ -1,5 +1,7 @@
 ## Weather project using React
 
-##to start the Programe
-#yarn install
-#yarn start
+## to start the Programe
+
+# yarn install
+
+# yarn start
