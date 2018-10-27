@@ -12,7 +12,8 @@ class App extends Component {
     ctiy: null,
     humidity: null,
     description: null,
-    error: undefined
+    error: undefined,
+    lodding: true
   };
 
   getWeather = async city => {
@@ -35,7 +36,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app col-sm-6 container">
+      <div className="app col-sm-12 container">
         <h2 className=" h1 text-center text-white my-5">React Weather App</h2>
         <Form getWeather={this.getWeather} />
         <Weather

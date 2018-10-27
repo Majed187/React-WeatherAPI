@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Weather = props => (
-  <div className="pl-5">
+  <div className="weathr pl-5 col-sm-12">
     {props.city && (
       <p className="text h1 pl-5 pt-5 ">
         <FontAwesomeIcon className="icon h1 " icon={faThumbtack} />

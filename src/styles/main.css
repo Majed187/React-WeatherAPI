@@ -6318,8 +6318,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Playfair Display", serif; }
+  @media screen and (min-width: 600px) {
+    body .weathr {
+      font-size: 14px;
+      width: auto;
+      padding-left: 2px; } }
   body .app {
-    height: 95vh; }
+    min-height: 95vh; }
   body .icon {
     margin-top: 20px; }
   body .text {
